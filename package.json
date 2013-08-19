@@ -1,0 +1,41 @@
+{
+  "name": "twitter-api-proxy",
+  "version": "0.0.0",
+  "description": "A small caching http proxy for the twitter api",
+  "homepage": [
+    "https://github.com/tleen/twitter-api-proxy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tleen/twitter-api-proxy"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "proxy"
+  ],
+  "author": "Tom Leen <tl@thomasleen.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tleen/twitter-api-proxy/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "commander" : "2.0.0",
+    "express" : "3.3.5",
+    "fs-extra" : "0.6.3",
+    "log" : "1.4.0",
+    "twitter-api" : "1.0.2",
+    "underscore" : "1.5.1"
+  },
+  "devDependencies": {
+    "grunt" : "0.4.1",
+    "grunt-cli" : "0.1.9",
+    "grunt-contrib-jshint" : "0.6.3"
+  },
+  "main": "./lib/server",
+  "engines" : {
+    "node" : ">=0.10.0"
+  }
+}

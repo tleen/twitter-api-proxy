@@ -1,3 +1,10 @@
+# load them in via npm
+node_modules
+
+# user twitter login credentials
+.twitter.json
+
+
 lib-cov
 *.seed
 *.log
@@ -12,4 +19,3 @@ logs
 results
 
 npm-debug.log
-node_modules
