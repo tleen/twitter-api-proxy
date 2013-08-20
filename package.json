@@ -1,6 +1,6 @@
 {
   "name": "twitter-api-proxy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A small caching http proxy for the twitter api",
   "homepage": [
     "https://github.com/tleen/twitter-api-proxy"
