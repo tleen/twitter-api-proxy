@@ -6,7 +6,8 @@ module.exports = function (grunt) {
     jshint: {
       all : ['Gruntfile.js', 'lib/*.js'],
       options : {
-	node : true
+	node : true,
+	smarttabs : true
       }
     }
   });

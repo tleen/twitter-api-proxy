@@ -26,6 +26,8 @@
     "express" : "3.3.5",
     "fs-extra" : "0.6.3",
     "log" : "1.4.0",
+    "moment" : "2.1.0",
+    "string" : "1.5.0",
     "twitter-api" : "1.0.2",
     "underscore" : "1.5.1"
   },
